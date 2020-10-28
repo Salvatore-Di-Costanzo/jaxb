@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<PreservationConfiguration xsi:noNamespaceSchemaLocation="schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MaxPDVSize>699</MaxPDVSize>
+  <MaxPDVDocs>3183</MaxPDVDocs>
+  <ClassiDocumentali>
+    <ClasseDocumentale>
+      <id>string</id>
+      <terminiConservazione>2957</terminiConservazione>
+      <mappings>
+        <metadataSystem>
+          <docPrincipale>
+            <key field="string" name="string" valuetype="string" fieldtype="string" mandatoryForPreservation="false" preservationPurpose="0" />
+          </docPrincipale>
+          <allegati>
+            <key field="string" name="string" valuetype="string" fieldtype="string" mandatoryForPreservation="0" preservationPurpose="false" />
+          </allegati>
+        </metadataSystem>
+        <metadataCustom>
+          <docPrincipale>
+            <key field="string" name="string" valuetype="string" fieldtype="string" mandatoryForPreservation="false" preservationPurpose="0" />
+          </docPrincipale>
+          <allegati>
+            <key field="string" name="string" valuetype="string" fieldtype="string" mandatoryForPreservation="true" preservationPurpose="true" />
+          </allegati>
+        </metadataCustom>
+      </mappings>
+    </ClasseDocumentale>
+  </ClassiDocumentali>
+</PreservationConfiguration>
